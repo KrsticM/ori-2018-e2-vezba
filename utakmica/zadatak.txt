@@ -1,0 +1,8 @@
+ljubicasto i narandzasto polje
+ako stane na ljubicasto dobija jedan poen
+ako stane na narandzasto 75% gubi poen, a 25% trazi celendz
+ako trazi celendz ima 50% da dobije, a 50% da izgubi poen (dobija drugi)
+
+-igra se jedan gem - do 4, s tim da mora biti dve razlike
+
+-ne moze da dodje do cilja dok se utakmica ne zavrsi

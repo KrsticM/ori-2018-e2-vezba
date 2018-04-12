@@ -1,0 +1,3 @@
+prvobitno kupljenje crne, pa plave
+
+//dodato jos da se krece normalno dok ne pokupi crnu, pa se krece kao konj dok ne pokupi plavu, a posle kao lovac

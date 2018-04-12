@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Text;
 
 /*
@@ -12,9 +13,20 @@ namespace Lavirint
     {
         public static int[,] lavirint;
         State parent;
+
         public int markI, markJ; //vrsta i kolona
         public double cost;
-        public Hashtable boxes = new Hashtable();
+        private Dictionary<Point, bool> reqStates = new Dictionary<Point, bool>();
+
+
+        public State()
+        {
+            foreach (Point point in Main.obaveznaStanja)
+            {
+                reqStates.Add(point, false);
+            }
+        }
+
         public State sledeceStanje(int markI, int markJ)
         {
             State rez = new State();
@@ -22,12 +34,15 @@ namespace Lavirint
             rez.markJ = markJ;
             rez.parent = this;
             rez.cost = this.cost + 1;
-            rez.boxes = new Hashtable(this.boxes);
 
-            bool isBox = lavirint[markI, markJ] == 4;
-            if(isBox && !boxes.ContainsKey(markI*100 + markJ))
+            foreach (KeyValuePair<Point, bool> entry in this.reqStates)
             {
-                rez.boxes.Add(markI * 100 + markJ, null);
+                rez.reqStates[entry.Key] = entry.Value;
+            }
+            
+            if (lavirint[markI, markJ] == 4)
+            {
+                rez.reqStates[new Point(markI, markJ)] = true;
             }
             return rez;
         }
@@ -66,12 +81,30 @@ namespace Lavirint
 
         public override int GetHashCode()
         {
-            return ((10000 * this.boxes.Count) + 100*markI + markJ);
+            //Console.WriteLine("Hashcode: " + (1000 * this.kutija + 100 * markI + markJ));
+            int i = 1000;
+            int key = 100 * this.markI + this.markJ;
+            foreach (KeyValuePair<Point, bool> entry in this.reqStates)
+            {
+                if (entry.Value == true)
+                {
+                    key = key + i;
+                }
+                i *= 10;
+            }
+            return  key;
         }
 
         public bool isKrajnjeStanje()
         {
-            return Main.krajnjeStanje.markI == markI && Main.krajnjeStanje.markJ == markJ && this.boxes.Count >= 2;
+            foreach (KeyValuePair<Point, bool> entry in this.reqStates)
+            {
+                if (this.reqStates[entry.Key] == false)
+                {
+                    return false; //nismo pokupili neke sastojke => stanje nije krajnje
+                }
+            }
+            return Main.krajnjeStanje.markI == markI && Main.krajnjeStanje.markJ == markJ;
         }
 
         public List<State> path()

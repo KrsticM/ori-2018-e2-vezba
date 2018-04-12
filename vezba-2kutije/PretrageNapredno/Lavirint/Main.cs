@@ -63,11 +63,12 @@ namespace Lavirint
 
         public static State pocetnoStanje = null;
         public static State krajnjeStanje = null;
-
+        public static List<Point> obaveznaStanja = new List<Point>();
 
         private void inicijalizacijaPretrage() {
             displayPanel1.resetLavirintPoruke();
             displayPanel1.resetLavirintPoseceno();
+            obaveznaStanja = new List<Point>();
             allSearchStates = new List<State>();
             for (int i = 0; i < Main.brojVrsta; i++)
             {
@@ -85,6 +86,10 @@ namespace Lavirint
                         krajnjeStanje = new State();
                         krajnjeStanje.markI = i;
                         krajnjeStanje.markJ = j;
+                    }
+                    else if (tt == 4)
+                    { 
+                        obaveznaStanja.Add(new Point(i, j));
                     }
                 }
             }
