@@ -20,3 +20,14 @@ C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\vezba-teleport\PretrageNapred
 C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\vezba-teleport\PretrageNapredno\Lavirint\bin\Debug\Lavirint.exe.config
 C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\vezba-teleport\PretrageNapredno\Lavirint\bin\Debug\Lavirint.exe
 C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\vezba-teleport\PretrageNapredno\Lavirint\bin\Debug\Lavirint.pdb
+C:\Users\Kiriyaga\Documents\GitHub\ori-2018-e2-vezba\vezba-teleport\PretrageNapredno\Lavirint\bin\Debug\Lavirint.exe.config
+C:\Users\Kiriyaga\Documents\GitHub\ori-2018-e2-vezba\vezba-teleport\PretrageNapredno\Lavirint\bin\Debug\Lavirint.exe
+C:\Users\Kiriyaga\Documents\GitHub\ori-2018-e2-vezba\vezba-teleport\PretrageNapredno\Lavirint\bin\Debug\Lavirint.pdb
+C:\Users\Kiriyaga\Documents\GitHub\ori-2018-e2-vezba\vezba-teleport\PretrageNapredno\Lavirint\obj\Debug\Lavirint.csprojResolveAssemblyReference.cache
+C:\Users\Kiriyaga\Documents\GitHub\ori-2018-e2-vezba\vezba-teleport\PretrageNapredno\Lavirint\obj\Debug\Lavirint.DisplayPanel.resources
+C:\Users\Kiriyaga\Documents\GitHub\ori-2018-e2-vezba\vezba-teleport\PretrageNapredno\Lavirint\obj\Debug\Lavirint.Main.resources
+C:\Users\Kiriyaga\Documents\GitHub\ori-2018-e2-vezba\vezba-teleport\PretrageNapredno\Lavirint\obj\Debug\Lavirint.Properties.Resources.resources
+C:\Users\Kiriyaga\Documents\GitHub\ori-2018-e2-vezba\vezba-teleport\PretrageNapredno\Lavirint\obj\Debug\Lavirint.csproj.GenerateResource.Cache
+C:\Users\Kiriyaga\Documents\GitHub\ori-2018-e2-vezba\vezba-teleport\PretrageNapredno\Lavirint\obj\Debug\Lavirint.csproj.CoreCompileInputs.cache
+C:\Users\Kiriyaga\Documents\GitHub\ori-2018-e2-vezba\vezba-teleport\PretrageNapredno\Lavirint\obj\Debug\Lavirint.exe
+C:\Users\Kiriyaga\Documents\GitHub\ori-2018-e2-vezba\vezba-teleport\PretrageNapredno\Lavirint\obj\Debug\Lavirint.pdb

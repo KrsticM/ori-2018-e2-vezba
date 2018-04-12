@@ -56,12 +56,37 @@ namespace Lavirint
                     }
                 }
             }
-            if(markI == Main.teleportUlaz.markI && markJ == Main.teleportUlaz.markJ) // imamo teleport tu
+            //proveri da li smo naisli na teleport
+            for (int i = 0; i < Main.teleport.Count; i++)
             {
-                State novo = sledeceStanje(Main.teleportIzlaz.markI, Main.teleportIzlaz.markJ);
-                rez.Add(novo);
+                if (markI == Main.teleport[i].markI && markJ == Main.teleport[i].markJ) // imamo teleport tu
+                {
+                    State novo = bestExit(markI,markJ,i);
+                    rez.Add(novo);
+                }
             }
             return rez;
+        }
+        //najbolji izlaz-> najmanje rastojanje do cilja
+        public State bestExit(int markI, int markJ,int index)
+        {
+            int pamtii = 0;
+            double min = Math.Sqrt(Math.Pow(Main.teleport[0].markI - Main.krajnjeStanje.markI, 2) + Math.Pow(Main.teleport[0].markJ - Main.krajnjeStanje.markJ, 2));
+            //prodji kroz sve ulaze i proveri da li je najblizi cilju
+              for (int i=1;i<Main.teleport.Count;i++)
+            {//racunamo euklidsko rastojanje cilj->teleport
+                double temp= Math.Sqrt(Math.Pow(Main.teleport[i].markI - Main.krajnjeStanje.markI, 2) + Math.Pow(Main.teleport[i].markJ - Main.krajnjeStanje.markJ, 2));
+                if (temp<min && index!=i)
+                {
+                    //congrats
+                    min = temp;
+                    pamtii = i;
+
+                }
+            }
+            State s = sledeceStanje(Main.teleport[pamtii].markI, Main.teleport[pamtii].markJ);
+            return s;
+
         }
 
         public override int GetHashCode()

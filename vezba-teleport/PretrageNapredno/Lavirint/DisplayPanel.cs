@@ -115,10 +115,7 @@ namespace Lavirint
                             cc2 = Color.FromArgb(100, Color.Red);
                             break;
                         case 4:
-                            cc2 = Color.FromArgb(100, Color.Silver);
-                            break;
-                        case 5: 
-                            cc2 = Color.FromArgb(100, Color.Sienna);
+                            cc2 = Color.FromArgb(100, Color.Gold);
                             break;
                     }
                     String ttS = lavirintPoruke[i][j];
@@ -189,9 +186,6 @@ namespace Lavirint
                     tt = 4;
                     break;
                 case 4:
-                    tt = 5;
-                    break;
-                case 5:
                     tt = 0;
                     break;
             }                    

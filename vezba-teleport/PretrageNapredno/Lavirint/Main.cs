@@ -63,8 +63,8 @@ namespace Lavirint
 
         public static State pocetnoStanje = null;
         public static State krajnjeStanje = null;
-        public static State teleportUlaz = null;
-        public static State teleportIzlaz = null;
+        public static List<State> teleport = new List<State>();
+        
 
         private void inicijalizacijaPretrage() {
             displayPanel1.resetLavirintPoruke();
@@ -89,15 +89,10 @@ namespace Lavirint
                     }
                     else if(tt == 4)
                     {
-                        teleportUlaz = new State();
+                       State teleportUlaz = new State();
                         teleportUlaz.markI = i;
                         teleportUlaz.markJ = j;
-                    }
-                    else if(tt == 5)
-                    {
-                        teleportIzlaz = new State();
-                        teleportIzlaz.markI = i;
-                        teleportIzlaz.markJ = j;
+                        teleport.Add(teleportUlaz);
                     }
                 }
             }
