@@ -154,7 +154,7 @@ namespace Lavirint
         //
         public bool isKrajnjeStanje()
         {
-            if (poseceneNarandzaste.Count != Main.narandzaste.Count || posecenePlave.Count != Main.plave.Count)
+            if (poseceneNarandzaste.Count != 2 || posecenePlave.Count != 3)
             {
                 return false;
             }

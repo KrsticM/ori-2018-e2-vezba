@@ -1,0 +1,1 @@
+Na poljima postoji senzor, u okolini senzora (3 polja) se krece sporije, cupka, ukoliko robot udje u polje senzora treba da pritine dva dugmeta da bi ugasio alarm.

@@ -20,3 +20,14 @@ C:\Users\Jaseyrae9\Documents\VI semestar\ORI\Priprema\maca2\3a\1\Lavirint\obj\De
 C:\Users\Jaseyrae9\Documents\VI semestar\ORI\Priprema\maca2\3a\1\Lavirint\bin\Debug\Lavirint.exe.config
 C:\Users\Jaseyrae9\Documents\VI semestar\ORI\Priprema\maca2\3a\1\Lavirint\bin\Debug\Lavirint.exe
 C:\Users\Jaseyrae9\Documents\VI semestar\ORI\Priprema\maca2\3a\1\Lavirint\bin\Debug\Lavirint.pdb
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\3plave_3narandzaste_vatra\1\Lavirint\bin\Debug\Lavirint.exe.config
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\3plave_3narandzaste_vatra\1\Lavirint\bin\Debug\Lavirint.exe
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\3plave_3narandzaste_vatra\1\Lavirint\bin\Debug\Lavirint.pdb
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\3plave_3narandzaste_vatra\1\Lavirint\obj\Debug\Lavirint.csprojResolveAssemblyReference.cache
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\3plave_3narandzaste_vatra\1\Lavirint\obj\Debug\Lavirint.DisplayPanel.resources
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\3plave_3narandzaste_vatra\1\Lavirint\obj\Debug\Lavirint.Main.resources
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\3plave_3narandzaste_vatra\1\Lavirint\obj\Debug\Lavirint.Properties.Resources.resources
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\3plave_3narandzaste_vatra\1\Lavirint\obj\Debug\Lavirint.csproj.GenerateResource.cache
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\3plave_3narandzaste_vatra\1\Lavirint\obj\Debug\Lavirint.csproj.CoreCompileInputs.cache
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\3plave_3narandzaste_vatra\1\Lavirint\obj\Debug\Lavirint.exe
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\3plave_3narandzaste_vatra\1\Lavirint\obj\Debug\Lavirint.pdb
