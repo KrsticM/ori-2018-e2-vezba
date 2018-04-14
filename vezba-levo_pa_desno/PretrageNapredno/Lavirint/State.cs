@@ -36,21 +36,25 @@ namespace Lavirint
                 rez.DesnePosecene.Add(hash.Key, null);
             }
 
-            if (lavirint[markI, markJ] == 4 && !LevePosecene.ContainsKey(markI * 10 + markJ))
+            if (markJ + 1 < Main.brojKolona/2) // ako je levo
             {
-                rez.LevePosecene.Add(markI * 10 + markJ, null);
+                if (lavirint[markI, markJ] == 4 && !LevePosecene.ContainsKey(markI * 10 + markJ))
+                {
+                    rez.LevePosecene.Add(markI * 10 + markJ, null);
+                }
             }
-            else if(lavirint[markI, markJ] == 4 && !DesnePosecene.ContainsKey(markI * 10 + markJ))
-            { 
-          
+            else // ako je desno
+            {
+                if (lavirint[markI, markJ] == 4 && !DesnePosecene.ContainsKey(markI * 10 + markJ))
+                {
                     if (Main.boxesLeft.Count == LevePosecene.Count)
                     {
-                    
                         rez.DesnePosecene.Add(markI * 10 + markJ, null);
                     }
-
-                
+                }
             }
+            
+          
 
             return rez;
         }
@@ -64,6 +68,7 @@ namespace Lavirint
             }
             return yes;
         }
+
         public bool isEndOfMap(int newMarkI, int newMarkJ)
         {
             return (newMarkI >= 0 && newMarkI < Main.brojVrsta) && (newMarkJ > 0 && newMarkJ < Main.brojKolona);
@@ -112,7 +117,7 @@ namespace Lavirint
                 i = i << 1; //shift za jedno mesto u levo. npr: 1000 0000 postaje 1 0000 0000 i tako se dobije sledeća obavezno polje
             }
 
-            i = 2048;
+            i = 524288; // 2^19
 
             foreach (Point point in Main.boxesRight) //iterira se kroz listu svih obaveznih
             {
@@ -128,7 +133,9 @@ namespace Lavirint
 
         public bool isKrajnjeStanje()
         {
-            if (LevePosecene.Count != Main.boxesLeft.Count || DesnePosecene.Count != Main.boxesRight.Count)
+            Console.WriteLine("isKrajnjeStanje - Potrebno levih: " + Main.boxesLeft.Count + " Poseceno levih " + this.LevePosecene.Count);
+            Console.WriteLine("isKrajnjeStanje - Potrebno desnih: " + Main.boxesRight.Count + " Poseceno desnih " + this.DesnePosecene.Count);
+            if (this.LevePosecene.Count != Main.boxesLeft.Count || this.DesnePosecene.Count != Main.boxesRight.Count)
             {
                 return false;
             }

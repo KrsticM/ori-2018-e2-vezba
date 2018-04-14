@@ -42,3 +42,14 @@ C:\Users\Kiriyaga\Desktop\ori-2018-e2-vezba-master\vezba-teleport\PretrageNapred
 C:\Users\Kiriyaga\Desktop\ori-2018-e2-vezba-master\vezba-teleport\PretrageNapredno\Lavirint\obj\Debug\Lavirint.csproj.CoreCompileInputs.cache
 C:\Users\Kiriyaga\Desktop\ori-2018-e2-vezba-master\vezba-teleport\PretrageNapredno\Lavirint\obj\Debug\Lavirint.exe
 C:\Users\Kiriyaga\Desktop\ori-2018-e2-vezba-master\vezba-teleport\PretrageNapredno\Lavirint\obj\Debug\Lavirint.pdb
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\vezba-levo_pa_desno\PretrageNapredno\Lavirint\bin\Debug\Lavirint.exe.config
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\vezba-levo_pa_desno\PretrageNapredno\Lavirint\bin\Debug\Lavirint.exe
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\vezba-levo_pa_desno\PretrageNapredno\Lavirint\bin\Debug\Lavirint.pdb
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\vezba-levo_pa_desno\PretrageNapredno\Lavirint\obj\Debug\Lavirint.csprojResolveAssemblyReference.cache
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\vezba-levo_pa_desno\PretrageNapredno\Lavirint\obj\Debug\Lavirint.DisplayPanel.resources
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\vezba-levo_pa_desno\PretrageNapredno\Lavirint\obj\Debug\Lavirint.Main.resources
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\vezba-levo_pa_desno\PretrageNapredno\Lavirint\obj\Debug\Lavirint.Properties.Resources.resources
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\vezba-levo_pa_desno\PretrageNapredno\Lavirint\obj\Debug\Lavirint.csproj.GenerateResource.cache
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\vezba-levo_pa_desno\PretrageNapredno\Lavirint\obj\Debug\Lavirint.csproj.CoreCompileInputs.cache
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\vezba-levo_pa_desno\PretrageNapredno\Lavirint\obj\Debug\Lavirint.exe
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\vezba-levo_pa_desno\PretrageNapredno\Lavirint\obj\Debug\Lavirint.pdb

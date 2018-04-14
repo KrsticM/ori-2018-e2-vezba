@@ -63,12 +63,14 @@ namespace Lavirint
 
         public static State pocetnoStanje = null;
         public static State krajnjeStanje = null;
-        public static List<Point> boxesLeft = new List<Point>();
-        public static List<Point> boxesRight = new List<Point>();
+        public static List<Point> boxesLeft = null;
+        public static List<Point> boxesRight = null;
         private void inicijalizacijaPretrage() {
             displayPanel1.resetLavirintPoruke();
             displayPanel1.resetLavirintPoseceno();
             allSearchStates = new List<State>();
+            boxesLeft = new List<Point>();
+            boxesRight = new List<Point>();
             for (int i = 0; i < Main.brojVrsta; i++)
             {
                 for (int j = 0; j < Main.brojKolona; j++)
