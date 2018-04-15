@@ -1,0 +1,3 @@
+Teski:
+-robot se krece kao lovac sve dok ne stane na plavo polje koje predstavlja rezervoar sa vodom, dok ne pokupi rezervoar
+treba da izbegava vatru, nakon sto pokupi rezervoar krece se kao kralj i ima zadatak da pogasi sve vatre.

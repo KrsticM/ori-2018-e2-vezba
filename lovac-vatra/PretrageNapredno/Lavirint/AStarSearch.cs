@@ -1,0 +1,81 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Collections;
+
+namespace Lavirint
+{
+    class AStarSearch
+    {
+        public State search(State pocetnoStanje)
+        {
+            List<State> stanjaZaObradu = new List<State>();
+            Hashtable predjeniPut = new Hashtable();
+            stanjaZaObradu.Add(pocetnoStanje);
+
+            while (stanjaZaObradu.Count > 0)
+            {
+                State naObradi = getBest(stanjaZaObradu);
+
+                if (!predjeniPut.ContainsKey(naObradi.GetHashCode()))
+                {
+                    Main.allSearchStates.Add(naObradi);
+                    if (naObradi.isKrajnjeStanje())
+                    {
+                        return naObradi;
+                    }
+                    predjeniPut.Add(naObradi.GetHashCode(),null);
+                    List<State> sledecaStanja = naObradi.mogucaSledecaStanja();
+
+                    foreach (State s in sledecaStanja)
+                    {
+                        stanjaZaObradu.Add(s);
+                    }
+                }
+                stanjaZaObradu.Remove(naObradi);
+            }
+            return null;
+        }
+
+        public double heuristicFunction(State s)
+        {
+            double temp = Math.Sqrt(Math.Pow(s.markI - Main.krajnjeStanje.markI, 2) + Math.Pow(s.markJ - Main.krajnjeStanje.markJ, 2)) + s.cost;
+
+            for (int i = 0; i < Main.vatre.Count; i++)
+            {
+                double rastojanje = Math.Sqrt(Math.Pow(s.markI - Main.vatre[i].X, 2) + Math.Pow(s.markJ - Main.vatre[i].Y, 2));
+
+                if (rastojanje == 0)
+                {
+                    temp += 10000;
+                }
+                else
+                {
+                    temp += 10 / rastojanje;
+                }
+            }
+
+            return temp;
+        }//za vatru
+
+        public State getBest(List<State> stanja)
+        {
+            State rez = null;
+            double min = Double.MaxValue;
+
+            foreach (State s in stanja)
+            {
+                double h = heuristicFunction(s);
+                if (h < min)
+                {
+                    min = h;
+                    rez = s;
+                }
+            }
+            return rez;
+        }
+
+
+
+    }
+}

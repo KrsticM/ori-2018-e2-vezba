@@ -1,0 +1,7 @@
+Tezak:
+-ide i sakuplja poene, plava kutija nosi 1, a zuta 3 poena.
+-dok ne sakupi 6 poena krece se kao konj, nakon sto skupi 6 krece se gore, dole, levo, desno po 1 ili 2 polja
+(zavisi sta mu je optimalnije)
+-kad sakupi 11 ne treba vise da kupi, nego ide ka crvenoj kutiji (nekim novim nacinom kretanja - cik cak? lovac? dodali i 
+normalno jer nas je mrzelo da namestamo tablu za proveru.xD, i valjda smo potrefili uslove za kretanje)
+-poslednja skupljena kutija treba da je plava

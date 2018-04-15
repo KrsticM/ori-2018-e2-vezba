@@ -1,0 +1,3 @@
+laki:
+-kretanje kao konj na levoj polovini table, na desnoj kretanje gore, dole, levo, desno
+-pokupiti plavu, pa narandzastu kutiju, a onda kretanje dijagonalno po jedno polje do cilja
