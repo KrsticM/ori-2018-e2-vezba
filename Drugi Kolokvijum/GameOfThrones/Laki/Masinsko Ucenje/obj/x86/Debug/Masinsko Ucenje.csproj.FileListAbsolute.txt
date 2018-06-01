@@ -1,0 +1,27 @@
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2\vezbe\v5\Masinsko Ucenje\Masinsko Ucenje\bin\Debug\Masinsko Ucenje.exe
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2\vezbe\v5\Masinsko Ucenje\Masinsko Ucenje\bin\Debug\Masinsko Ucenje.pdb
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2\vezbe\v5\Masinsko Ucenje\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.csprojResolveAssemblyReference.cache
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2\vezbe\v5\Masinsko Ucenje\Masinsko Ucenje\obj\x86\Debug\Masinsko_Ucenje.Main.resources
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2\vezbe\v5\Masinsko Ucenje\Masinsko Ucenje\obj\x86\Debug\Masinsko_Ucenje.Properties.Resources.resources
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2\vezbe\v5\Masinsko Ucenje\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.csproj.GenerateResource.cache
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2\vezbe\v5\Masinsko Ucenje\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.csproj.CoreCompileInputs.cache
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2\vezbe\v5\Masinsko Ucenje\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.exe
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2\vezbe\v5\Masinsko Ucenje\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.pdb
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\Masinsko Ucenje\Masinsko Ucenje\bin\Debug\Masinsko Ucenje.exe
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\Masinsko Ucenje\Masinsko Ucenje\bin\Debug\Masinsko Ucenje.pdb
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\Masinsko Ucenje\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.csprojResolveAssemblyReference.cache
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\Masinsko Ucenje\Masinsko Ucenje\obj\x86\Debug\Masinsko_Ucenje.Main.resources
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\Masinsko Ucenje\Masinsko Ucenje\obj\x86\Debug\Masinsko_Ucenje.Properties.Resources.resources
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\Masinsko Ucenje\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.csproj.GenerateResource.cache
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\Masinsko Ucenje\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.csproj.CoreCompileInputs.cache
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\Masinsko Ucenje\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.exe
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\Masinsko Ucenje\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.pdb
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\GameOfThrones\Laki\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.csprojResolveAssemblyReference.cache
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\GameOfThrones\Laki\Masinsko Ucenje\obj\x86\Debug\Masinsko_Ucenje.Main.resources
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\GameOfThrones\Laki\Masinsko Ucenje\obj\x86\Debug\Masinsko_Ucenje.Properties.Resources.resources
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\GameOfThrones\Laki\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.csproj.GenerateResource.cache
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\GameOfThrones\Laki\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.csproj.CoreCompileInputs.cache
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\GameOfThrones\Laki\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.exe
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\GameOfThrones\Laki\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.pdb
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\GameOfThrones\Laki\Masinsko Ucenje\bin\Debug\Masinsko Ucenje.exe
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\GameOfThrones\Laki\Masinsko Ucenje\bin\Debug\Masinsko Ucenje.pdb

@@ -1,0 +1,14 @@
+C:\Users\Krstic\Desktop\NaiveBayes\NaiveBayes\bin\Debug\data\train.tsv
+C:\Users\Krstic\Desktop\NaiveBayes\NaiveBayes\bin\Debug\NaiveBayes.exe
+C:\Users\Krstic\Desktop\NaiveBayes\NaiveBayes\bin\Debug\NaiveBayes.pdb
+C:\Users\Krstic\Desktop\NaiveBayes\NaiveBayes\obj\x86\Debug\NaiveBayes.csprojResolveAssemblyReference.cache
+C:\Users\Krstic\Desktop\NaiveBayes\NaiveBayes\obj\x86\Debug\NaiveBayes.csproj.CoreCompileInputs.cache
+C:\Users\Krstic\Desktop\NaiveBayes\NaiveBayes\obj\x86\Debug\NaiveBayes.exe
+C:\Users\Krstic\Desktop\NaiveBayes\NaiveBayes\obj\x86\Debug\NaiveBayes.pdb
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\NaiveBayes\NaiveBayes\bin\Debug\data\train.tsv
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\NaiveBayes\NaiveBayes\bin\Debug\NaiveBayes.exe
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\NaiveBayes\NaiveBayes\bin\Debug\NaiveBayes.pdb
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\NaiveBayes\NaiveBayes\obj\x86\Debug\NaiveBayes.csprojResolveAssemblyReference.cache
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\NaiveBayes\NaiveBayes\obj\x86\Debug\NaiveBayes.csproj.CoreCompileInputs.cache
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\NaiveBayes\NaiveBayes\obj\x86\Debug\NaiveBayes.exe
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\NaiveBayes\NaiveBayes\obj\x86\Debug\NaiveBayes.pdb
