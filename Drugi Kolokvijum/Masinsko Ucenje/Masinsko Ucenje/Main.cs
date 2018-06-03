@@ -99,7 +99,7 @@ namespace Masinsko_Ucenje
                 string[] parts = line.Split('\t');
                 Console.WriteLine(parts[0]);
                 Console.WriteLine(parts[1]);
-                double lat = double.Parse(parts[(int)Header.Indeks]);
+                double lat = double.Parse(parts[(int)Header.Indeks]);w
                 double lng = double.Parse(parts[(int)Header.Bodovi]);
                 dbscanElements.Add(new Point(lat, lng));
             }

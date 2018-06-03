@@ -1,0 +1,1 @@
+Izvrsiti klasterovanje u 3 grupe na osnovu podataka od col_1 do col_4

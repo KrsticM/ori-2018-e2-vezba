@@ -77,42 +77,47 @@ namespace ComputationalGraph
 
 
             NeuralNetwork network = new NeuralNetwork();
-            network.Add(new NeuralLayer(6, 6, "sigmoid"));
-            network.Add(new NeuralLayer(6, 1, "sigmoid"));
+            network.Add(new NeuralLayer(6, 3, "sigmoid"));
+            network.Add(new NeuralLayer(3, 2, "sigmoid"));
+            network.Add(new NeuralLayer(2, 1, "sigmoid"));
 
             List<List<double>> X = new List<List<double>>();
-
             List<List<double>> Y = new List<List<double>>();
+
             // prolazimo kroz sve likove
-            for (int i=0; i<pol.Count; i++)
-            {
-                
+            for (int i=400; i<1900; i++)
+            {                
                 double[] xTemp = { (double)pol[i], (double)popularnost[i], (double)brojPojavljivanja[i], (double)isNoble[i], (double)ubijenoUOkolini[i], (double)pripadaPorodici[i]};
                 X.Add(xTemp.ToList());
 
 
                 double[] yTemp = { (double)isAlive[i] };
-                Y.Add(yTemp.ToList());
-
-               
-
-                if (i >= 1500)
-                {
-                    break;
-                }
-
-   
+                Y.Add(yTemp.ToList());     
             }
+
             Console.WriteLine("Obuka pocela");
-            network.fit(X, Y, 0.1, 0.9, 10000);
+            network.fit(X, Y, 0.1, 0.9, 500);
             Console.WriteLine("Gotova obuka");
 
-
-          
-
-            double[] x1 = { pol[1903], popularnost[1903], brojPojavljivanja[1903], isNoble[1903], ubijenoUOkolini[1903], pripadaPorodici[1903] };
-            Console.WriteLine(network.predict(x1.ToList())[0]);
-
+            int dobrih = 0;
+            for (int i = 0; i < 400; i++)
+            {
+                double[] x1 = { pol[i], popularnost[i], brojPojavljivanja[i], isNoble[i], ubijenoUOkolini[i], pripadaPorodici[i] };
+                int iAmAlive = -1;
+                if (network.predict(x1.ToList())[0] < 0.5)
+                {
+                    iAmAlive = 0;
+                }
+                else
+                {
+                    iAmAlive = 1;
+                }
+                if (isAlive[i] == iAmAlive)
+                {
+                    dobrih++;
+                }
+            }
+            Console.WriteLine("Dobrih: " + dobrih + "/400");
             Console.ReadLine();
         }
     }
