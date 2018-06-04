@@ -13,29 +13,22 @@ namespace Masinsko_Ucenje
             LinearRegression regression =  new LinearRegression();
 
             string[] lines;
-            lines = File.ReadAllLines(@"./../../data/bodovi.csv");
+            lines = File.ReadAllLines(@"./../../data/train.csv");
             lines = lines.Skip(1).ToArray(); // skip header row (Indeks, Bodovi)
 
             List<List<double>> koordinate = new List<List<double>>();
 
             List<double> Y = new List<double>();
 
-            // 1,1,1,1
-            // 2,2,2,2
-
-
-            // 1 1 1 1
-            // 2 2 2 2
-
-            for(int j=0; j<lines.Length; j++)
+            foreach (string line in lines)
             {
-                string line = lines[j];
                 string[] parts = line.Split(',');
-                for(int i=0; i < parts.Length; i++)
+                List<double> temp = new List<double>();
+                for (int i = 0; i < parts.Length; i++)
                 {
-                    if(i != parts.Length-1)
+                    if (i != parts.Length - 1)
                     {
-                        koordinate[j].Add(double.Parse(parts[i]));
+                        temp.Add(double.Parse(parts[i])); 
                     }
                     else
                     {
@@ -43,10 +36,67 @@ namespace Masinsko_Ucenje
 
                     }
                 }
+                koordinate.Add(temp);
             }
+            Console.WriteLine("Dalje neces moci");
+
+            /*for(int j=0; j<lines.Length; j++)
+            {
+                string line = lines[j];
+                string[] parts = line.Split(',');
+                for(int i=0; i < parts.Length; i++)
+                {
+                    if(i != parts.Length-1)
+                    {
+                        koordinate[j].Add(1.0); //double.Parse(parts[i])
+                    }
+                    else
+                    {
+                        Y.Add(double.Parse(parts[i]));
+
+                    }
+                }
+            }*/
 
             regression.fit(koordinate, Y);
-            Console.ReadLine();
+            Console.WriteLine("Dalje neces moci2");
+
+            lines = File.ReadAllLines(@"./../../data/test.csv");
+            lines = lines.Skip(1).ToArray(); // skip header row (Indeks, Bodovi)
+
+            List<List<double>> koordinateNove = new List<List<double>>();
+
+            List<double> YNovo = new List<double>();
+
+            foreach (string line in lines)
+            {
+                string[] parts = line.Split(',');
+                List<double> temp = new List<double>();
+                for (int i = 0; i < parts.Length; i++)
+                {
+                    if (i != parts.Length - 1)
+                    {
+                        temp.Add(double.Parse(parts[i]));
+                    }
+                    else
+                    {
+                        YNovo.Add(double.Parse(parts[i]));
+
+                    }
+                }
+                koordinateNove.Add(temp);
+            }
+            for (int i=0; i<koordinateNove.Count; i++)
+            {
+                Console.WriteLine("Tacno = " + YNovo[i]);
+
+                Console.WriteLine("Pogodjeno = " + regression.predict(koordinateNove[i]));
+
+
+            }
+
+
+            //Console.ReadLine();
         }
     }
 }

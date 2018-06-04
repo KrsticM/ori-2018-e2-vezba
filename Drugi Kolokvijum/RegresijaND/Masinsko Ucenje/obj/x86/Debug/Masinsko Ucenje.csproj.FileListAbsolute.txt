@@ -22,3 +22,5 @@ C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\RegresijaND\
 C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\RegresijaND\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.csproj.CoreCompileInputs.cache
 C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\RegresijaND\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.exe
 C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\RegresijaND\Masinsko Ucenje\obj\x86\Debug\Masinsko Ucenje.pdb
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\RegresijaND\Masinsko Ucenje\bin\Debug\Masinsko Ucenje.exe
+C:\Users\Krstic\Documents\GitHub\ori-2018-e2-vezba\Drugi Kolokvijum\RegresijaND\Masinsko Ucenje\bin\Debug\Masinsko Ucenje.pdb

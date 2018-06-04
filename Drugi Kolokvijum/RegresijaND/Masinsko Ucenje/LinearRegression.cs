@@ -38,13 +38,34 @@ namespace Masinsko_Ucenje
                     strY += ";";
                 }
             }
+            Console.WriteLine("Matrice " + str);
+            Console.WriteLine("Matrice " + strY);
             Matrix ymatrica = new Matrix(strY);
+            Console.WriteLine("nrapvipo prvi");
             Matrix m = new Matrix(str);
+            Console.WriteLine(m.ToString());
+            Console.WriteLine("nrapvipo drugi");
             Matrix transponovana = m.Transpose();
+            Console.WriteLine(transponovana.ToString());
+            Console.WriteLine("transponovao");
             Matrix pomnozena = m * transponovana;
+            Console.WriteLine("pomnozio");
+            Console.WriteLine(pomnozena.ToString());
             Matrix invertovana = pomnozena.Inverse();
-            Matrix koeficijenti = invertovana * transponovana * ymatrica;
+            Console.WriteLine(invertovana.ToString());
+            Console.WriteLine("invertovano");
+            Matrix koeficijenti = transponovana * ymatrica;
+            koeficijenti = koeficijenti * invertovana;
             Console.WriteLine(koeficijenti.ToString());
+        }
+        public double predict(List<double> x)
+        {
+            double retVal = 0;
+            for(int i=0; i< koeficijenti.Count; i++)
+            {
+                retVal += koeficijenti[i] * Math.Pow(x[i], i);
+            }
+            return retVal;
         }
     }
 }
